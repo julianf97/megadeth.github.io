@@ -1,0 +1,366 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Lato', sans-serif;
+}
+/* Mobile */
+@media only screen and (max-width:768px){ 
+    .article{
+        background-color: #000;
+    }
+    .contenedor-principal{
+        padding-top: 870px !important;
+        .contenedor-titulo{
+            margin-top: -810px !important;
+        }
+        .contenedor-portada-disco-mobile{
+            width: 100%;
+            height: auto;
+            display: flex;
+            justify-content: center;
+            align-items: flex-start;
+            .portada-disco-mobile{
+                margin-top: 79px;
+                border: 2px solid rgba(255,255,255,0.1);
+                width: 92.5%;
+                height: auto;
+                box-sizing: border-box;
+                img{
+                    margin-bottom: -2.5px;
+                    width: 100%;
+                    height: 100%
+                }
+            }
+        }
+        .contenedor-cuadrados-mobile{
+            margin-top: 1rem;
+            width: 92%;
+            margin-left: 4.2%;
+            height: auto;
+            display: flex;
+            list-style: none;
+            flex-wrap: wrap;
+            padding: none;
+
+            .cuadrado-mobile{
+
+                background-color: #BA9353;
+                margin-right: 12.5px;
+                margin-top: 2px;
+                display: block;
+                font-size: 1.25em;
+                height: 40px;
+                line-height: 40px;
+                text-align: center;
+                width: 40px;
+                height: 40px !important;
+                width: 40px !important;
+                i{
+                    color: #fff;
+                }
+            }
+        }
+        .contenedor-titulo-mobile{
+            width: 92%;
+            margin-left: 3.6%;
+            margin-top: 60px;
+            h1{
+                color: #fff;
+                margin-left: 2px;
+                font-weight: 750;
+                font-size: 1.8rem;
+            }
+        }
+       .barra-marron-mobile{
+            width: 23%;
+            height: 0.5vh;
+            margin-top: 21px;
+            background-color: #BA9353;
+            border: solid 1px #BA9353;
+            margin-left: 17px;
+        }
+        .contenedor-lista-mobile{
+            margin-top: 3.5rem;
+            margin-left: 3.6%;
+            width: 92.5%;
+            height: 60vh;
+            .lista-canciones-mobile{
+                list-style: none;
+                display: block;
+                list-style-type: decimal;
+                list-style: inside decimal-leading-zero;
+                margin-block-start: 1em;
+                margin-block-end: 1em;
+                margin-inline-start: 0px;
+                margin-inline-end: 0px;
+                padding-inline-start: 40px;
+                li{
+                    color: #fff;
+                    border-bottom: 1px solid rgba(255,255,255,0.1);
+                    padding: 12px;
+                    margin-left: -40px;
+                }
+                .cancion-mobile{
+                    font-weight: 420;
+                    font-size: 0.90rem;
+                }
+            }
+        }
+        .contenedor-botones-order-mobile{
+            width: 99%;
+            height: 30vh;
+            margin-top: 8rem;
+            border: #fff;
+            background-color: #000;
+            display: flex;
+            flex-direction: column;
+            justify-content: start;
+            align-items: center;
+            .boton-order-now-marron-mobile{ 
+                background: #ba9353;
+                border-radius: 0;
+                box-shadow: none;
+                font-size: .9rem;
+                font-weight: 700;
+                letter-spacing: 1.5px;
+                outline: none !important;
+                padding: 0.75rem 2.125rem;
+                position: relative;
+                text-align: center;
+                text-transform: uppercase;
+                transition: all .4s ease;
+                margin: 0 5px;
+                min-width: 190.5px;
+                padding: 1.5rem 2.125rem;
+                display:block;
+                color: white;
+                margin-bottom: 1rem;
+         
+            } 
+        }
+    }
+    .contenedor-videos-mobile{
+        width: 100%;
+        background-color: #000;
+        height: 50vh;
+        .contenedor-video-principal-mobile{
+            width: 100%;
+            height: 40vh;
+            .video-principal-mobile{
+                width: 100%;
+                height: 100%;
+                object-fit: contain;
+            }
+        }
+        .contenedor-videos-chicos-mobile{
+            height: 10vh;
+            width: 100%;
+            background-color: #000;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            .video-chico-mobile{
+                width: 20%;
+                height: 100%;
+            }
+            .primero{
+                background-image: url("/img/videos-chicos/maxresdefault.jpg");
+                background-size: contain;
+                background-position: top;
+                background-repeat: no-repeat;
+                margin-top: 1rem;
+            }
+            .segundo{
+                background-image: url("/img/videos-chicos/segundo.jpg");
+                background-size: contain;
+                background-position: top;
+                background-repeat: no-repeat;
+                margin-top: 1rem;
+            }
+            .tercero{
+                background-image: url("/img/videos-chicos/tercero.jpg");
+                background-size: contain;
+                background-position: top;
+                background-repeat: no-repeat;
+                margin-top: 1rem;
+            }
+            .cuarto{
+                background-image: url("/img/videos-chicos/cuarto.jpg");
+                background-size: contain;
+                background-position: top;
+                background-repeat: no-repeat;
+                margin-top: 1rem;
+            }
+        }
+    }
+    .contenedor-titulo-ordernow-mobile{
+        width: 100%;
+        background-color: #000;
+        height: 30vh;
+        margin-top: -5rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: end;
+        align-items: center;
+        h3{
+            color: #fff;
+            font-weight: 705;
+            font-size: 1.5rem;
+            padding-bottom: 1rem;
+            letter-spacing: 1px;
+            margin-left: 0.2rem;
+        }
+        .barra-marron-mobile{
+            width: 23%;
+            height: 0.5vh;
+            background-color: #BA9353;
+            border: solid 1px #BA9353;
+            margin-left: 0.5rem;
+        }
+    }
+    .contenedor-parrafo-img-mobile{
+        width: 90%;
+        background-color: #000;
+        height: auto;
+        padding: 1rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        .contenedor-parrafo-mobile{
+            width: 100%;
+            background-color: #000;
+            height: 25vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            p{
+                color: #ededed;
+                font-size: 0.8rem;
+                font-weight: 520;
+                letter-spacing: 1.2px;
+                margin-left: 1rem;
+            }
+            .parrafo-primero{
+                font-size: .9rem;
+            }
+        }
+        .contenedor-img-mobile{
+            width: 90%;
+            background-color: #000;
+            height: auto;
+            padding-left: 1rem;
+            padding-right: 1rem;
+            img{
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+            }
+        }
+        .contenedor-segundo-titulo-mobile{
+            width: 90%;
+            background-color: #000;
+            height: auto;
+            padding-left: 1rem;
+            padding-right: 1rem;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+            h4{
+                color: #ededed;
+                margin-left: 2px;
+                font-weight: 750;
+                font-size: 1rem;
+                letter-spacing: 1px;
+                margin-left: 0.8rem;
+            }
+            .barra-marron-mobile{
+                width: 23%;
+                height: 0.5vh;
+                background-color: #BA9353;
+                border: solid 1px #BA9353;
+                margin-top: 1.3rem;
+                margin-left: 1rem;
+            }
+        }
+        .limited{
+            text-align: start !important;
+            height: 30vh;
+            width: 90%;
+            display: flex;
+            flex-direction: column;
+            margin-left: 1rem;
+            .boton-order-now-blanco-mobile{ 
+                background: #fff;
+                background-size: 100%;
+                color: #000;
+                display: inline-block;
+                font-size: 12px;
+                font-weight: bold;
+                padding: 15px 40px;
+                text-transform: uppercase;
+                transition: .4s background-color ease;
+                margin-top: 2rem;
+         
+            } 
+        }
+        .limited-tercero{
+            text-align: start !important;
+            height: 30vh;
+            width: 90%;
+            display: flex;
+            flex-direction: column;
+            margin-left: 1rem;
+            margin-top: 1.5rem;
+            .boton-order-now-blanco-mobile{ 
+                background: #ededed;;
+                background-size: 100%;
+                color: #000;
+                display: inline-block;
+                font-size: 12px;
+                font-weight: bold;
+                padding: 15px 40px;
+                text-transform: uppercase;
+                transition: .4s background-color ease;
+                margin-top: 2rem;
+         
+            } 
+        }
+    }
+}
+
+/* Desktop */ 
+.contenedor-portada-disco-mobile{
+    display: none;
+}
+#general{
+    width: 100%;
+    height: 100vh;
+    .contenedor-principal{
+        background-image: url("/img/fondo.jpg");
+        background-size: cover;
+        background-position: top;
+        background-repeat: no-repeat;
+        min-height: 100vh;
+        padding-top: 500px;
+        width: 100%;
+        .contenedor-titulo{
+            width: 100%;
+            height: auto;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-top: -380px;
+            .titulo{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                img{
+                    width: 95%;
+                }
+            }
+        }
+    }
+}
